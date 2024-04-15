@@ -1,0 +1,12 @@
+pandas 
+numpy 
+matplotlib
+seaborn 
+nltk
+transformers
+tensorflow
+tf-keras
+torch
+scipy
+scikit-learn
+transformers[torch]

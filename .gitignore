@@ -1,0 +1,10 @@
+test
+data
+output
+logs
+
+.env
+env
+
+fine_tuned_model
+__pycache__
