@@ -47,7 +47,7 @@ Run analysis.ipynb
 
 For running the Flask API and the Streamlit app, follow these simplified steps:
 
-Before Running the Flask API make sure you run all step in Analysis
+**Note** : **Before Running the Flask API make sure you run all step in Analysis**
 
 1. **Flask API:**
 
