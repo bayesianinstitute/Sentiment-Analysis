@@ -10,3 +10,4 @@ torch
 scipy
 scikit-learn
 transformers[torch]
+kaggle==1.6.12

@@ -23,7 +23,7 @@ Run analysis.ipynb
 
 ## Data Preparation
 
-1. **Dataset Acquisition:** Obtain the Amazon Reviews dataset from [Kaggle](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews).
+1. **Dataset Acquisition:** Obtain the Amazon Reviews dataset from Kaggle API and load in .env as shown .env.example.
 
 2. **Data Extraction and Preparation:** Extract the compressed data files (`train.ft.txt.bz2` and `test.ft.txt.bz2`) and preprocess them into readable text files (`train.ft.txt` and `test.ft.txt`).
 
