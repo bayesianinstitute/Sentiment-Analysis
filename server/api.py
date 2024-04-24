@@ -1,8 +1,20 @@
 from flask import Flask, request, jsonify
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from scipy.special import softmax
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
+
+load_dotenv()
+
+# Load the server IP from environment variables
+SERVER_IP = os.getenv("SERVER_IP")
+
+# Ensure SERVER_IP is set
+if SERVER_IP is None:
+    raise ValueError("SERVER_IP is not set in environment variables.")
+
 
 # Load the fine-tuned model and tokenizer
 model_dir = ".././fine_tuned_model"
@@ -38,4 +50,4 @@ def predict():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host=SERVER_IP,port=5000, debug=True)
