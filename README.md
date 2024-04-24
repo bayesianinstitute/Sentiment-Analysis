@@ -64,5 +64,5 @@ For running the Flask API and the Streamlit app, follow these simplified steps:
    - Run the Streamlit app:
 
      ```bash
-     streamlit run streamlit_app.py
+     streamlit run app.py
      ```
